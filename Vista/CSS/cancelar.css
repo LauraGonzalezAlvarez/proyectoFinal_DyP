@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+ 
+main div{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+:root{
+    --cafe: #A6653F;
+    --salmon: #A69792;
+    --dark-grey: #594842;
+    --light-grey: #D9CFCC;
+    --sm: 1.5rem;
+    --smd: 1.8rem;
+    --md: 3.5rem;
+    --lg: 5rem;
+}
+ 
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 3rem;
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 6rem;
+    background-color: var(--salmon);
+    font-size: var(--smd);
+    align-items: center;
+}
+
+header >div ul{
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+header >div ul a{
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding-right:3rem;
+}
+a:hover{
+    color: var(--light-grey);
+}
+.btn{
+    background-color: var(--dark-grey);
+    border-radius: 30px;
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    color: var(--light-grey);
+    font-size: var(--smd);
+    margin-top: 2rem;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+
+.container{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 2rem;
+    height: 60rem;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0rem 3rem;
+  
+}
+
+.form-registro{
+    border-radius:50px;
+
+    width: 50%;
+    background-color: var(--salmon);
+    color: var(--dark-grey);
+    padding-top:4rem;
+    height: 38rem;
+}
+.form{
+    margin-top: 3rem;
+    padding-left: 20rem;
+    margin-bottom: 3rem;
+}
+ 
+.form-registro h2, input{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-registro p{
+    font-size: var(--smd);
+    color: var(--light-grey); 
+    margin-bottom: 1rem;
+}
+
+.form-registro h2{
+    font-size: var(--md);
+}
+
+.redondeado {
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.title{
+    margin-bottom: 4rem;
+}
+.icon{
+    fill: var(--dark-grey);
+}
+
+.icon{
+    fill: var(--dark-grey);
+}
+.icon:hover{
+    fill: var(--light-grey);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 3rem;
+    width: 100%;
+    height: 14rem;
+    margin-bottom: 6rem;
+    background-color: var(--salmon);
+    font-size: var(--smd);
+    align-items: center;
+}
+
+footer >div ul{
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+footer >div ul a{
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding-right:3rem;
+}
