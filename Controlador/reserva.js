@@ -2,8 +2,8 @@ const form = document.getElementById("frmajax")
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const formData= new FormData(form) 
-    const path = ('/proyectoFinal_DyP/Modelo/reservar.php')
-    fetch('/proyectoFinal_DyP/Modelo/reservar.php', {
+    const path = ('/proyectoFinal_DyP/Modelo/reserva.php')
+    fetch('/proyectoFinal_DyP/Modelo/reserva.php', {
         method: 'POST',
         body: formData,
         headers: {
