@@ -32,33 +32,33 @@
                 
              </div>
             <div class="form-registro">
-                <form action="../../form-result.php" method="get" target="_blank">
+                <form action="#" id="frmajax" method="POST">
     
-                   
+                 
                   
                       <h2>Información reserva</h2>
                   
-                      <p><label>ID:</label></p>
-                      <input type="number" name="identificacion"  class="redondeado">
+                      <p><label>Isbn:</label></p>
+                      <input type="number" name="isbn" id="isbn" class="redondeado">
                       <p><label>Fecha de reserva:</label></p>
-                      <input type="date" name="fechaReserva"  class="redondeado">
-                  
-                      <p>Tipo de persona:</p>
-                      <label><input type="radio" name="tPersona" value="estudiante" > Estudiante</label>
-                  
-                      <label><input type="radio" name="tPersona" value="administrativo"> Administrativo</label>
-                      <p><label>Sede:</label></p>
-                      <input type="text" name="sede" class="redondeado">
-                  
-                      <p><label>Referencia libro:</label></p>
-                      <input type="text" name="refLibro"  class="redondeado">
-                  
+                      <input type="date" name="fechaReserva" id="fechaReserva" class="redondeado">
+                      <p><label>Renovación :</label></p>
+                      <input type="number" name="renovacion"id="renovacion" class="redondeado" value="0" >
+                      <p><label>Estado :</label></p>
+                      <input type="text" name="estado" id="estado"class="redondeado" value="Activo" >
+                      <p><label>Cedula:</label></p>
+                      <input type="number" name="cedula" id="cedula" class="redondeado">
+                      <p><label>Ubicación libro:</label></p>
+                      <input type="text" name="ubicacion" id="ubicacion" class="redondeado">
+                                      
                 
                     <p>
     
                         <input type="submit" value="Enviar" class="btn">
                         
                       </p>
+                </form>
+                <script src="/proyectoFinal_DyP/Controlador/reservar.js"></script>
             </div>
         </section>
     </main>

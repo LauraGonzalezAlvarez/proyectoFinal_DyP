@@ -27,7 +27,7 @@
     <main>
         <section class="container">
             <div class="form-registro">
-                <form action="../../form-result.php" method="get" target="_blank">
+                <form  action="#" id="frmajax" method="POST" > 
     
                    
                     <div class="title">
@@ -35,15 +35,17 @@
                     </div>
                       
                     <div class="form">
-                        <p><label>ID de la persona de la reserva:</label></p>
-                      <input type="number" name="identificacion" class="redondeado"> 
-                      <p><label>Referencia libro:</label> </p>
-                      <input type="text" name="refLibro"  class="redondeado"> 
+                        <p><label>Codigo isbn del libro:</label></p>
+                      <input type="number" name="isbn" id="isbn" class="redondeado"> 
+                      <p><label>Estado pasará a:</label> </p>
+                      <input type="text" name="Estado_nombre" id="Estado_nombre"  value="Cancelado" class="redondeado" > 
                       <p>
                         <input type="submit" value="Enviar" class="btn">
                         
                       </p>
                     </div>
+                </form>
+                <script src="/proyectoFinal_DyP/Controlador/cancelar.js"></script>
                       
             </div>
         </section>
