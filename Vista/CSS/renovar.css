@@ -19,9 +19,10 @@ p{
 
 :root{
     --cafe: #A6653F;
-    --salmon: #A69792;
-    --dark-grey: #594842;
-    --light-grey: #D9CFCC;
+    --salmon: #99D9F2;
+    --red: #F20505;
+    --light-grey: #EBEEF2;
+    --light-pink: #F28D8D;
     --sm: 1.5rem;
     --smd: 1.8rem;
     --md: 3.5rem;
@@ -48,14 +49,14 @@ header >div ul{
 }
 header >div ul a{
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--red);
     padding-right:3rem;
 }
 a:hover{
     color: var(--light-grey);
 }
 .btn{
-    background-color: var(--dark-grey);
+    background-color: var(--red);
     border-radius: 30px;
     height: 3rem;
     width: 10rem;
@@ -85,7 +86,7 @@ a:hover{
 
     width: 50%;
     background-color: var(--salmon);
-    color: var(--dark-grey);
+    color: var(--red);
     padding-top:4rem;
     height: 50rem;
 }
@@ -102,7 +103,7 @@ a:hover{
 
 .form-registro p{
     font-size: var(--smd);
-    color: var(--light-grey); 
+    color: var(--light-pink); 
     margin-bottom: 1rem;
 }
 
@@ -118,11 +119,11 @@ a:hover{
     margin-bottom: 4rem;
 }
 .icon{
-    fill: var(--dark-grey);
+    fill: var(--red);
 }
 
 .icon{
-    fill: var(--dark-grey);
+    fill: var(--red);
 }
 .icon:hover{
     fill: var(--light-grey);
@@ -146,6 +147,6 @@ footer >div ul{
 }
 footer >div ul a{
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--red);
     padding-right:3rem;
 }
