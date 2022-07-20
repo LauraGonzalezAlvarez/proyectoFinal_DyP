@@ -46,7 +46,7 @@
                       </p>
                     </div>
                 </form>
-                <script src="/proyectoFinal_DyP/Controlador/cancelar.js"></script>
+                <script src="cancelar.js"></script>
                       
             </div>
         </section>
