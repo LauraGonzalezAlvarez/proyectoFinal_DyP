@@ -3,8 +3,8 @@ const form = document.getElementById("frmajax")
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     const formData= new FormData(form) 
-    const path = ('./cancelar.php')
-    fetch('./cancelar.php', {
+    const path = ('cancelarmodelo.php')
+    fetch('cancelarmodelo.php', {
         method: 'POST',
         body: formData,
         headers: {
