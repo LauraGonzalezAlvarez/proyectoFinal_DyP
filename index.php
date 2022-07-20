@@ -58,7 +58,7 @@
                         
                       </p>
                 </form>
-                <script src="/proyectoFinal_DyP/Controlador/reserva.js"></script>
+                <script src="cancelar.js"></script>
             </div>
         </section>
     </main>
