@@ -4,7 +4,7 @@
         
 
         // Connect to DB
-        $conn = new PDO("mysql:host=localhost; dbname=reservalibros; charset=utf8", 'root', '');
+         $conn = new PDO("mysql://b375f2b0e09217:c9cbe69b@us-cdbr-east-06.cleardb.net/heroku_b8e35bcf3ccb2d6?reconnect=true; dbname=heroku_b8e35bcf3ccb2d6; charset=utf8", 'b375f2b0e09217', 'c9cbe69b');
 
         echo "funciona"
         
