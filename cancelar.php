@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Vista/CSS/style.css">
+    <link rel="stylesheet" href="../CSS/cancelar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
@@ -17,48 +17,37 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="reserva.html">Reservar</a></li>
-                    <li><a href="renovar.html">Renovar</a></li>
-                    <li><a href="cancelar.html">Cancelar</a></li>
+                    <li><a href="reserva.php">Reservar</a></li>
+                    <li><a href="renovar.php">Renovar</a></li>
+                    <li><a href="cancelar.php">Cancelar</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section class="container">
-            <div class="phara">
-                
-                <div><h1>¡Reserva tu libro a un solo click!</h1></div>
-                
-             </div>
             <div class="form-registro">
-                <form action="#" id="frmajax" method="POST">
+                <form  action="#" id="frmajax" method="POST" > 
     
-                 
-                  
-                      <h2>Información reserva</h2>
-                  
-                      <p><label>Isbn:</label></p>
-                      <input type="number" name="isbn" id="isbn" class="redondeado" value="659000643">
-                      <p><label>Fecha de reserva:</label></p>
-                      <input type="text" name="fecha" id="fecha" class="redondeado" value="2022-07-11">
-                      <p><label>Renovación :</label></p>
-                      <input type="number" name="renovacion" id="renovacion" class="redondeado" value="0" >
-                      <p><label>Estado :</label></p>
-                      <input type="text" name="Estado_nombre" id="Estado_nombre"class="redondeado" value="Activo" >
-                      <p><label>Cedula:</label></p>
-                      <input type="number" name="Persona_cedula" id="Persona_cedula" class="redondeado" value="1038546244">
-                      <p><label>Ubicación libro:</label></p>
-                      <input type="text" name="Libro_ubicacion" id="Libro_ubicacion" class="redondeado" value="336.2 I61">
-                                      
-                
-                    <p>
-    
-                        <input type="submit" value="Enviar" class="btn">
-                        
+                   
+                    <div class="title">
+                        <h2>Cancelar</h2>
+                    </div>
+                      
+                    <div class="form">
+                        <p><label>Codigo isbn del libro:</label></p>
+                      <input type="number" name="isbn" id="isbn" class="redondeado"> 
+                      <p><label>Estado pasará a:</label> </p>
+                      
+                      <p><input type="text" name="Estado_nombre" id="Estado_nombre"  value="Cancelado" class="redondeado" > </p>
+                      
+                      <p>                      
+                        <input type="submit" value="Enviar" class="btn">                        
                       </p>
+                    </div>
                 </form>
-                <script src="/proyectoFinal_DyP/Controlador/reserva.js"></script>
+                <script src="/proyectoFinal_DyP/Controlador/cancelar.js"></script>
+                      
             </div>
         </section>
     </main>
